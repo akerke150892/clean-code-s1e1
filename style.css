@@ -18,8 +18,9 @@
 }
 
 @media (max-width:768px) {
-.detail { text-align: center;
-}
+  .detail { 
+    text-align: center;
+  }
 }
 .centered-main {
   display: block;
@@ -77,7 +78,7 @@ input[type="text"] {
   background: #fff;
   border-radius: 6px;
   font-family: Lato, sans-serif;
-    color: #888;
+  color: #888;
 }
 input[type="text"]:focus {
   color: #333;
