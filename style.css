@@ -25,7 +25,7 @@
   .detail { 
     text-align: center;
   }
-  
+
 }
 
 .centered-main {
@@ -44,13 +44,12 @@
   display: flex;
 }
 
-ul {
+.tasks-list {
   margin: 0;
   padding: 0px;
 }
 
-li, 
-h3 {
+li {
   list-style: none;
 }
 
@@ -59,7 +58,7 @@ button {
   outline: none;
 }
 
-button {
+.btn {
   background: none;
   border: 0px;
   color: #888;
@@ -69,13 +68,12 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.btn:hover {
   color: #3a3a3a;
 }
 
 /* Heading */
-h3,
-label[for="new-task"] {
+.section-title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
